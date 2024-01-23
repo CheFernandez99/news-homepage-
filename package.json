@@ -1,8 +1,8 @@
 {
-  "homepage": "https://CheFernandez99.github.io/news-homepage",
+  "homepage": "https://chefernandez99.github.io/news-homepage-/",
   "name": "news-homepage",
   "version": "0.1.0",
-  "private": true,
+  "private":true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
