@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+*{
+    margin: 0 0 0.5rem;
+    padding: 0;
+    font-family: Inter, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navCard{
+    height: 400px;
+    position: absolute;
+    background:rgb(255, 255, 255);
+    width: 200px;
+   left:40%;
+   padding: 1rem;
+   
+}
+.navCard button{
+    width: 30px;
+    margin: 0.5rem;
+    border: none;
+    background: none;
+}
+ul li{
+    margin: 0 0.6rem 0.5rem;
+    padding: 0.25rem;
+    list-style: none;
+}
+.firstBox{
+    margin: 1rem;
+}
+#thirdBoxFlex{
+    display: flex;
+    margin: 1rem 0 2rem ;
+}
+.thirdBox{
+    margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.secondBox{
+    background: hsl(240, 100%, 5%);
+    color: white;
+    margin: 1rem 1rem 3rem ;
+    padding: 1rem;
+}
+.secondBox h2{
+    color: hsl(36, 100%, 99%);
+    margin: 0.5rem  ;
+}
+.secondBox span{
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    margin: 1rem;
+}
+.menuIcon{
+    width: 40px;
+    float: right;
+    margin: 0.7rem;
+    border: none;
+    background: none;
+}
+
+
+.secondBox p {
+    margin: 0.5rem 0.5rem 2rem;
+    line-height: 2;
+    color: hsl(233, 8%, 79%);
+}
+.pDiv{
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+}
+.Div{
+    padding: 1rem;
+}
+#noBorder{
+    border-bottom: none;
+}
+
+img{
+    width: 100%;
+}
+#Logo{
+    width: 70px;
+}
+.desktopNav{
+    display: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+  
+}
+.firstBox p{
+    color:  hsl(236, 13%, 42%);
+    line-height: 2;
+}
+.firstBox button{
+    padding: 1rem;
+    width: 200px;
+    color: white;
+    background: hsl(5, 85%, 63%);
+    border: none;
+}
+.thirdBox span{
+    color: hsl(233, 8%, 79%);
+    font-size: 30px;
+    font-weight: 700;
+}
+.thirdBox h3{
+    margin: 0.5rem;
+    color:  hsl(240, 100%, 5%);
+}
+.thirdBox p,span{
+    color: hsl(236, 13%, 42%);
+    margin: 0.5rem
+}
+.thirdBox img{
+    width: 80px;
+}
+@media only screen and (min-width:768px){
+   
+    .thirdBox{
+        display: flex;
+        margin-left: 8rem ;
+        margin-right: 8rem ;
+    }
+    .desktopNav{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    .firstBoxflex{
+        display: flex;
+
+    }
+    .firstBoxflex p ,button{
+        margin: 1rem;
+    }
+    .secondBox p {
+        line-height: 1.5;
+        color: hsl(233, 8%, 79%);
+        margin: 0.5rem 0.5rem 0.5rem;
+    }
+    .secondBox h2{
+        font-size: 20px;
+    }
+   
+  .firstBox{
+    width: 50%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+    .desktopNav{
+        display: block;
+    }
+    .menuIcon{
+       display: none;
+    }
+    ul li{
+        display: inline-block;
+        float:right;
+    }
+    .secondBox{
+        width: 25%;
+        margin:  1rem ;
+      padding: 1rem;
+    }
+    .pDiv{
+        margin: 0;
+    }
+   
 }
